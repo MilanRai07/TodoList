@@ -1,6 +1,6 @@
 .container{
     display:flex;
-    height:100vh;
+    min-height:100vh;
     justify-content: center;
     align-items: center;
 }
@@ -57,10 +57,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(114, 37, 185);
     border-radius: 3px;
     padding:0px 5px;
     color:#fff;
+    margin-top: 10px;
+}
+.list:nth-child(3n-2){
+    background-color: #00A36C;
+}
+.list:nth-child(3n-1){
+    background-color:peru;
+}
+.list:nth-child(3n){
+    background-color: #6302a4;
 }
 .list-event{
     display: flex;
@@ -84,4 +93,8 @@
     border: none;
     cursor: pointer;
     font-weight: bold;
+}
+.pencil{
+   fill:#8b9aa3;
+   
 }

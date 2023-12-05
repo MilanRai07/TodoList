@@ -1,0 +1,87 @@
+.container{
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container-todo{
+    text-align: center;
+    justify-content: center;
+    width:430px;
+    height: auto;
+    min-height: 520px;
+    background-color:black;
+    padding:20px 40px;
+    border-radius: 5px;
+}
+.todo-head{
+    border-bottom: 1px solid rgb(250, 247, 247);
+    color:#fff;
+    margin-bottom: 2.5rem;
+    padding-bottom: 6px;
+}
+.todo-input{
+    display: flex;
+    gap: 20px;
+    height: 40px;justify-content: space-between;
+}
+.todo-inputbox{
+    width:20rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.todo-inputbox:focus{
+    outline: none;
+    border: 2px solid rgb(26, 118, 194);
+}
+.todo-inputbutton{
+    min-width:6rem;
+    background-color:#0374b6;
+    border-radius: 2px;
+    color:#fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.todo-inputbutton:hover{
+    background-color:#0269a4;
+}
+.listcontainer{
+    margin-top: 2rem;
+    background-color: #121212;
+    height:21rem;
+    border-radius: 5px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(114, 37, 185);
+    border-radius: 3px;
+    padding:0px 5px;
+    color:#fff;
+}
+.list-event{
+    display: flex;
+    gap:8px;
+}
+.edit-buton{
+    width:4rem;
+    background-color: #026597;
+    padding:13px 0px;
+    border-radius: 2px;
+    color:#fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.del-buton{
+    width:4rem;
+    background-color: #de0a26;
+    border-radius: 2px;
+    color:#fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
